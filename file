@@ -1,9 +1,9 @@
-if (enemyA.isTouching(target)){
-    score = score - 5;
-    enemyA.x = -50;
-  }
-  if (enemyB.isTouching(target)){
-    score = score - 5;
-    enemyA.x = -50;
-  }
-  
+function gameBackground() {
+  noStroke();
+  background("black");
+  fill("white");
+  rect(0,100,400,200);
+  fill("lightblue");
+  rect(0,100,400,10);
+  rect(0,300,400,10);
+}
